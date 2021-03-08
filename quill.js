@@ -20,7 +20,6 @@ var observer = new IntersectionObserver(function(entries) {
 function typingAnimation(elt){
     var speed = 100
     var text = elt.textContent;
-    elt.textContent = "";
     for (let i = 0; i <= text.length; i++){
         setTimeout(displayText, i*speed, elt, text, i);
     }
