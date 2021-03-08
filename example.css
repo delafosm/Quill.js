@@ -1,0 +1,13 @@
+body {
+    background-color: #292929;
+}
+
+#long {
+    height: 100vh;
+}
+.nice {
+    margin-top: 10vh;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    color:white;
+}
