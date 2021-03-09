@@ -9,11 +9,17 @@ var observer = new IntersectionObserver(function(entries) {
 	if(entries[0].isIntersecting === true){
         var eltClass = entries[0]['target']['classList'];
         if(eltClass.contains('quTyping')){
-            typingAnimation(entries[0]['target']);}
-        else if(eltClass.contains('quCrypted'))
+            typingAnimation(entries[0]['target']);
+            eltClass.remove('quTyping');
+        }
+        else if(eltClass.contains('quCrypted')){
             cryptedAnimation(entries[0]['target']);
-        else if(eltClass.contains('quReverse'))
+            eltClass.remove('quCrypted');
+        }
+        else if(eltClass.contains('quReverse')){
             reverseAnimation(entries[0]['target']);
+            eltClass.remove('quReverse');
+        }
     }
 }, { threshold: [1] });
 

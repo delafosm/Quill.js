@@ -19,6 +19,7 @@ h1 {
 
 p {
     width: 40%;
+    min-width: 250px;
     font-family: 'Source Code Pro', monospace;
     color:#222222;
     font-size: 2em;
