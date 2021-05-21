@@ -1,5 +1,6 @@
 body {
     background-color: #d4d0d0;
+    font-family: 'Source Code Pro', monospace;
 }
 
 #intro {
@@ -13,14 +14,12 @@ h1 {
     justify-content: center;
     font-size: 4em;
     text-align: center;
-    font-family: 'Source Code Pro', monospace;
     color:#764CD5;
 }
 
 p {
     width: 40%;
     min-width: 250px;
-    font-family: 'Source Code Pro', monospace;
     color:#222222;
     font-size: 2em;
     margin:10vh auto;
@@ -42,14 +41,12 @@ img {
     padding:0.5em;
     font-size: 1.5em;
     text-align: center;
-    font-family: 'Source Code Pro', monospace;
     background-color:#222222;
     color:white
 }
 
 .nice {
     text-align: center;
-    font-family: 'Source Code Pro', monospace;
     color:#222222;
     font-size: 3em;
     margin-bottom: 30vh;

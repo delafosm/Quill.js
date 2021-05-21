@@ -17,6 +17,7 @@ var observer = new IntersectionObserver(function(entries) {
             eltClass.remove('quCrypted');
         }
         else if(eltClass.contains('quReverse')){
+            console.log("reverse");
             reverseAnimation(entries[0]['target']);
             eltClass.remove('quReverse');
         }
